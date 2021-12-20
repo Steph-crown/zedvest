@@ -1,0 +1,41 @@
+import styled from "styled-components";
+
+export const InputGroupContainer = styled.div`
+    display: flex;
+    width: 100%;
+    background-color: #e5e5e5;
+    /* height: 80px; */
+    border-radius: 48px;
+    max-width: 592px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9em 0;
+    padding-right: 0.9em;
+    input {
+        outline: none;
+        border: none;
+        background: transparent;
+        padding: 0 24px;
+        flex: 1;
+        width: 100%;
+        font-size: 18px;
+        caret-color: var(--theme);
+        color: #666666;
+
+        &::placeholder {
+            color: #a9a7a7;
+            opacity: 1;
+        }
+
+        &::-ms-input-placeholder {
+            color: #a9a7a7;
+        }
+        &:-ms-input-placeholder {
+            color: #a9a7a7;
+        }
+    }
+    button {
+        height: 40px;
+        width: 120px;
+    }
+`;

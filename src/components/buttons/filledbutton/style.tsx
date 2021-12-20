@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CrossButtonContainer = styled.button`
+export const FilledButtonContainer = styled.button`
     cursor: pointer;
     outline: none;
     border: none;
@@ -8,8 +8,8 @@ export const CrossButtonContainer = styled.button`
     border-radius: 24px;
     color: white;
     font-weight: 500;
-    width: 110px;
-    height: 40px;
+    width: 100px;
+    height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +26,8 @@ export const CrossButtonContainer = styled.button`
         border-radius: 24px;
         color: white;
         font-weight: 500;
-        width: 110px;
-        height: 40px;
+        width: 100px;
+        height: 36px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -36,8 +36,8 @@ export const CrossButtonContainer = styled.button`
 
     div.cross {
         border: 1px solid white;
-        width: 110px;
-        height: 40px;
+        width: 100px;
+        height: 36px;
         position: absolute;
         border-radius: 24px;
         transform: rotate(-15deg);
@@ -52,12 +52,12 @@ export const CrossButtonContainer = styled.button`
     }
 
     @media (max-width: 500px) {
-        height: 40px;
+        height: 36px;
         div.cross {
-            height: 40px;
+            height: 36px;
         }
         div.text {
-            height: 40px;
+            height: 36px;
             font-size: 14px;
         }
     }

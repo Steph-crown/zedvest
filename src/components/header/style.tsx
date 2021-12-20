@@ -8,7 +8,8 @@ export const HeaderContainer = styled.header`
         }
     }
 
-    padding: 2.5em 0;
+    padding: 2.2em 0;
+    padding-bottom: 1.8em;
     @media (max-width: 500px) {
         padding: 1.8em 0;
     }
