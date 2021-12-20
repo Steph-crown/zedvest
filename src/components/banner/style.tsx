@@ -31,6 +31,7 @@ export const BannerContainer = styled.section`
                     #ffc049 74.55%
                 );
                 background-clip: text;
+                -webkit-background-clip: text;
                 color: transparent;
                 /* line-height: 90px; */
             }
@@ -63,6 +64,66 @@ export const BannerContainer = styled.section`
                 width: 100%;
                 /* height: 300px; */
                 object-fit: cover;
+            }
+        }
+    }
+
+    @media (max-width: 1300px) {
+        div.banner-flex {
+            margin-top: -1.6em;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        div.banner-flex {
+            margin-top: -1em;
+            div.right {
+                margin-right: -2em;
+            }
+        }
+    }
+
+    @media (max-width: 1050px) {
+        div.banner-flex {
+            margin-top: 1.6em;
+            flex-direction: column;
+            div.left {
+                width: 100%;
+            }
+
+            div.right {
+                width: 100%;
+                margin-right: 0em;
+                margin-left: -9em;
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        div.banner-flex {
+            div.right {
+                margin-left: -7em;
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+        div.banner-flex {
+            div.right {
+                margin-left: -5em;
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        div.banner-flex {
+            div.left {
+                h1 {
+                    font-size: 2.5em;
+                }
+            }
+            div.right {
+                margin-left: -2em;
             }
         }
     }

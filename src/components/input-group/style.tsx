@@ -6,7 +6,7 @@ export const InputGroupContainer = styled.div`
     background-color: #e5e5e5;
     /* height: 80px; */
     border-radius: 48px;
-    max-width: 592px;
+    max-width: 1024px;
     align-items: center;
     justify-content: space-between;
     padding: 0.9em 0;
@@ -37,5 +37,22 @@ export const InputGroupContainer = styled.div`
     button {
         height: 40px;
         width: 120px;
+    }
+
+    @media (max-width: 500px) {
+        padding: 0.6em 0;
+        padding-right: 0.6em;
+        input {
+            font-size: 14px;
+            padding: 0 16px;
+        }
+        button {
+            height: 40px;
+            width: 100px;
+
+            div.text {
+                font-size: 12px;
+            }
+        }
     }
 `;
