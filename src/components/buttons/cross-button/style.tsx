@@ -52,12 +52,12 @@ export const CrossButtonContainer = styled.button`
     }
 
     @media (max-width: 500px) {
-        height: 34px;
+        height: 36px;
         div.cross {
-            height: 34px;
+            height: 36px;
         }
         div.text {
-            height: 34px;
+            height: 36px;
             font-size: 14px;
         }
     }

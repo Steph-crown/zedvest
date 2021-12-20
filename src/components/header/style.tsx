@@ -4,13 +4,13 @@ export const HeaderContainer = styled.header`
     img {
         height: 26px;
         @media (max-width: 500px) {
-            height: 20px;
+            height: 24px;
         }
     }
 
     padding: 2.5em 0;
     @media (max-width: 500px) {
-        padding: 1.6em 0;
+        padding: 1.8em 0;
     }
     display: flex;
     justify-content: space-between;
