@@ -6,7 +6,7 @@ import { ReactComponent as Shield } from "./../../assets/shield.svg";
 export const Features = () => {
     return (
         <FeatureContainer>
-            <div className="feature-card">
+            <div className="feature-card" data-aos="fade-up">
                 <div className="header">
                     <Shield />
                     <h4>Security Education</h4>
@@ -16,7 +16,7 @@ export const Features = () => {
                     your assests being secure.
                 </p>
             </div>
-            <div className="feature-card">
+            <div className="feature-card" data-aos="fade-up">
                 <div className="header">
                     <Chart />
                     <h4>Learn as you bank</h4>
@@ -26,7 +26,7 @@ export const Features = () => {
                     behaviour and find ways to improve on it.
                 </p>
             </div>
-            <div className="feature-card">
+            <div className="feature-card" data-aos="fade-up">
                 <div className="header">
                     <Lock />
                     <h4>Privacy Protection</h4>

@@ -9,7 +9,6 @@
 }
 
 section,
-header,
-footer {
+header {
     padding: 0 calc(0.08 * 100vw);
 }

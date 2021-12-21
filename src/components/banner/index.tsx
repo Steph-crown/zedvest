@@ -11,14 +11,18 @@ export const Banner: FC = () => {
             <Header />
             <div className="banner-flex">
                 <div className="left">
-                    <h6>
+                    <h6 data-aos="fade-up">
                         <Hyphen /> Coming soon
                     </h6>
-                    <h1>There is a new way to handle money.</h1>
-                    <p>Be the first to know when we launch</p>
+                    <h1 data-aos="fade-up">
+                        There is a new way to handle money.
+                    </h1>
+                    <p data-aos="fade-up">
+                        Be the first to know when we launch
+                    </p>
                     <InputGroup />
                 </div>
-                <div className="right">
+                <div className="right" data-aos="zoom-in">
                     <img src={BannerImage} alt="Pay" />
                 </div>
             </div>

@@ -15,7 +15,7 @@ export const StepsContainer = styled.section`
         @media (max-width: 1024px) {
             padding: 0em calc(0.08 * 100vw);
         }
-        margin: 5em 0;
+        margin: 8em 0;
 
         p {
             line-height: 40px;
@@ -69,11 +69,85 @@ export const StepsContainer = styled.section`
             }
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 900px) {
             flex-direction: column;
 
-            margin: 3em 0;
+            margin: 4em 0;
 
+            div.sm {
+                width: 100%;
+
+                img.image {
+                    width: 70%;
+                    margin: 1em 0;
+                }
+            }
+
+            div.bg {
+                width: 100%;
+
+                flex-direction: column;
+                img.illustration {
+                    height: 150px;
+                    width: 150px;
+                    object-fit: contain;
+                    margin: 0 0px;
+                    margin-top: 0px;
+                }
+
+                p {
+                    font-size: 1.2em;
+                }
+
+                h4 {
+                    font-size: 1.8em;
+                }
+            }
+
+            &:nth-child(2) {
+                width: 100%;
+
+                flex-direction: column !important;
+                img.illustration {
+                    height: 150px;
+                    width: 150px;
+                    object-fit: contain;
+                    margin: 0 0px;
+                    margin-top: 0px;
+                }
+
+                p {
+                    font-size: 1.2em;
+                }
+
+                h4 {
+                    font-size: 1.8em;
+                }
+
+                div.bg {
+                    width: 100%;
+
+                    flex-direction: column;
+                    img.illustration {
+                        height: 150px;
+                        width: 150px;
+                        object-fit: contain;
+                        margin: 0 0px;
+                        margin-top: 0px;
+                    }
+
+                    p {
+                        font-size: 1.2em;
+                    }
+
+                    h4 {
+                        font-size: 1.8em;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 500px) {
             div.sm {
                 width: 100%;
 
