@@ -188,6 +188,10 @@ export const FooterContainer = styled.footer`
                 position: relative;
                 z-index: 8444848484;
             }
+
+            h6 {
+                font-size: 1.2em !important;
+            }
         }
         img {
             &.mem {
