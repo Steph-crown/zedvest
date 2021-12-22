@@ -25,6 +25,7 @@ export const InputGroupContainer = styled.div`
         &::placeholder {
             color: #a9a7a7;
             opacity: 1;
+            font-size: 13px;
         }
 
         &::-ms-input-placeholder {
@@ -36,7 +37,7 @@ export const InputGroupContainer = styled.div`
     }
     button {
         height: 40px;
-        width: 120px;
+        width: 150px;
     }
 
     @media (max-width: 500px) {

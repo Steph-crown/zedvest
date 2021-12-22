@@ -8,7 +8,7 @@ export const CrossButtonContainer = styled.button`
     border-radius: 24px;
     color: white;
     font-weight: 500;
-    width: 200px;
+    width: 180px;
     height: 55px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ export const CrossButtonContainer = styled.button`
         border-radius: 24px;
         color: white;
         font-weight: 500;
-        width: 200px;
+        width: 180px;
         height: 55px;
         display: flex;
         justify-content: center;
@@ -36,7 +36,7 @@ export const CrossButtonContainer = styled.button`
 
     div.cross {
         border: 1px solid white;
-        width: 200px;
+        width: 180px;
         height: 55px;
         position: absolute;
         border-radius: 24px;
@@ -72,6 +72,13 @@ export const CrossButtonContainer = styled.button`
     &:hover {
         div.cross {
             transform: rotate(0deg);
+        }
+    }
+    @media (max-width: 600px) {
+        &,
+        & div.cross,
+        & div.text {
+            width: 140px;
         }
     }
 

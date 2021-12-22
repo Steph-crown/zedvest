@@ -27,7 +27,7 @@ export const Footer: FC = () => {
                     <h6>
                         Your financial freedom is now in the palm of your hands.
                     </h6>
-                    <h4>Sign Up for early access</h4>
+                    <h4>Sign up for early access</h4>
                     <div className="input-group">
                         <InputGroup />
                     </div>
@@ -42,15 +42,19 @@ export const Footer: FC = () => {
                     padding: "20px calc(0.08 * 100vw)",
                 }}
             >
-                <p
+                <a
                     style={{
                         textAlign: "center",
                         color: "white",
                         fontSize: "14px",
+                        textDecoration: "none",
+                        display: "block",
+                        margin: "auto",
                     }}
+                    href="mailto:support@zedvest.com"
                 >
                     Contact: support@zedvest.com
-                </p>
+                </a>
             </div>
         </>
     );

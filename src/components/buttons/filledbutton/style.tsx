@@ -8,7 +8,7 @@ export const FilledButtonContainer = styled.button`
     border-radius: 24px;
     color: white;
     font-weight: 500;
-    width: 150px;
+    width: 180px;
     height: 36px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ export const FilledButtonContainer = styled.button`
         border-radius: 24px;
         color: white;
         font-weight: 500;
-        width: 150px;
+        width: 180px;
         height: 36px;
         display: flex;
         justify-content: center;
@@ -36,7 +36,7 @@ export const FilledButtonContainer = styled.button`
 
     div.cross {
         border: 1px solid white;
-        width: 150px;
+        width: 180px;
         height: 36px;
         position: absolute;
         border-radius: 24px;
