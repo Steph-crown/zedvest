@@ -8,8 +8,8 @@ export const CrossButtonContainer = styled.button`
     border-radius: 24px;
     color: white;
     font-weight: 500;
-    width: 130px;
-    height: 40px;
+    width: 200px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +26,8 @@ export const CrossButtonContainer = styled.button`
         border-radius: 24px;
         color: white;
         font-weight: 500;
-        width: 140px;
-        height: 40px;
+        width: 200px;
+        height: 55px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -36,13 +36,37 @@ export const CrossButtonContainer = styled.button`
 
     div.cross {
         border: 1px solid white;
-        width: 130px;
-        height: 40px;
+        width: 200px;
+        height: 55px;
         position: absolute;
         border-radius: 24px;
-        transform: rotate(-15deg);
+        /* transform: rotate(-15deg); */
         transition: transform 1s;
         z-index: 0;
+        animation: turn;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes turn {
+        0% {
+            transform: rotate(0deg);
+        }
+        20% {
+            transform: rotate(15deg);
+        }
+        40% {
+            transform: rotate(0deg);
+        }
+        60% {
+            transform: rotate(-15deg);
+        }
+        80% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(15deg);
+        }
     }
 
     &:hover {
@@ -52,12 +76,12 @@ export const CrossButtonContainer = styled.button`
     }
 
     @media (max-width: 500px) {
-        height: 40px;
+        height: 55px;
         div.cross {
-            height: 40px;
+            height: 55px;
         }
         div.text {
-            height: 40px;
+            height: 55px;
             font-size: 14px;
         }
     }
