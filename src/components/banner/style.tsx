@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BannerBg from "./../../assets/banner-background.png";
+import BannerBg from "./../../assets/banner-background-min.png";
 
 export const BannerContainer = styled.section`
     background-image: url(${BannerBg});
@@ -13,12 +13,12 @@ export const BannerContainer = styled.section`
         justify-content: space-between;
         min-height: 2px;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         color: white;
         margin-top: -3em;
 
         div.left {
-            width: 50%;
+            width: 52%;
 
             h1 {
                 font-size: 3.6em;
@@ -57,7 +57,7 @@ export const BannerContainer = styled.section`
         }
 
         div.right {
-            width: 50%;
+            width: 58%;
             margin-right: -4em;
 
             img {

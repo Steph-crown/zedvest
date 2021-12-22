@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BgPattern from "./../../assets/background-vector.png";
+import BgPattern from "./../../assets/background-vector-min.png";
 
 export const HomePageContainer = styled.div`
     background: url(${BgPattern});
