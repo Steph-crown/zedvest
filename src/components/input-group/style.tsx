@@ -48,7 +48,7 @@ export const InputGroupContainer = styled.div`
         }
         button {
             height: 40px;
-            width: 100px;
+            width: 120px;
 
             div.text {
                 font-size: 12px;

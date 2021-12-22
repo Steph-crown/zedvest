@@ -8,7 +8,7 @@ export const CrossButtonContainer = styled.button`
     border-radius: 24px;
     color: white;
     font-weight: 500;
-    width: 110px;
+    width: 130px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ export const CrossButtonContainer = styled.button`
         border-radius: 24px;
         color: white;
         font-weight: 500;
-        width: 110px;
+        width: 140px;
         height: 40px;
         display: flex;
         justify-content: center;
@@ -36,7 +36,7 @@ export const CrossButtonContainer = styled.button`
 
     div.cross {
         border: 1px solid white;
-        width: 110px;
+        width: 130px;
         height: 40px;
         position: absolute;
         border-radius: 24px;
