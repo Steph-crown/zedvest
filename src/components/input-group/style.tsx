@@ -36,7 +36,7 @@ export const InputGroupContainer = styled.div`
         }
     }
     button {
-        height: 40px;
+        height: 55px;
         width: 150px;
     }
 
@@ -48,7 +48,7 @@ export const InputGroupContainer = styled.div`
             padding: 0 16px;
         }
         button {
-            height: 40px;
+            height: 55px;
             width: 120px;
 
             div.text {
