@@ -52,7 +52,7 @@ export const InputGroupContainer = styled.div`
             width: 120px;
 
             div.text {
-                font-size: 12px;
+                font-size: 14px;
             }
         }
     }
