@@ -69,7 +69,7 @@ export const BannerContainer = styled.section`
     }
 
     @media (max-width: 1300px) {
-        div.banner-flex {
+        div.banner-<InputGroup / > flex {
             margin-top: -1.6em;
         }
     }
@@ -87,6 +87,7 @@ export const BannerContainer = styled.section`
         div.banner-flex {
             margin-top: 1.6em;
             flex-direction: column;
+            padding-bottom: 1.5em;
             div.left {
                 width: 100%;
             }
@@ -95,6 +96,10 @@ export const BannerContainer = styled.section`
                 width: 100%;
                 margin-right: 0em;
                 margin-left: -9em;
+
+                img {
+                    display: none;
+                }
             }
         }
     }

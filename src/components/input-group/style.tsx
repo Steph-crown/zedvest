@@ -6,7 +6,7 @@ export const InputGroupContainer = styled.div`
     background-color: #e5e5e5;
     /* height: 80px; */
     border-radius: 48px;
-    max-width: 1024px;
+    max-width: 450px;
     align-items: center;
     justify-content: space-between;
     padding: 0.9em 0;
