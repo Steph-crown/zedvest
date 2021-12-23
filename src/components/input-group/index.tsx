@@ -5,7 +5,7 @@ import { InputGroupContainer } from "./style";
 export const InputGroup: FC = () => {
     return (
         <InputGroupContainer>
-            <input type="text" placeholder="Please enter your email address" />
+            <input type="text" placeholder="Enter your email address" />
             <FilledButton text="Notify Me" />
         </InputGroupContainer>
     );
