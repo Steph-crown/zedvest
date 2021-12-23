@@ -75,20 +75,22 @@ export const CrossButtonContainer = styled.button`
         }
     }
     @media (max-width: 600px) {
+        width: 120px;
+        height: 48px;
         &,
         & div.cross,
         & div.text {
-            width: 140px;
+            width: 120px;
+            height: 48px;
         }
     }
 
     @media (max-width: 500px) {
-        height: 55px;
         div.cross {
-            height: 55px;
+            height: 48px;
         }
         div.text {
-            height: 55px;
+            height: 48px;
             font-size: 14px;
         }
     }
