@@ -1,40 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Creator: CorelDRAW -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64.4338mm" height="68.2958mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 6443.38 6829.58"
- xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <style type="text/css">
-   <![CDATA[
-    .fil0 {fill:url(#id0)}
-    .fil1 {fill:url(#id1)}
-    .fil2 {fill:url(#id2)}
-    .fil3 {fill:url(#id3)}
-   ]]>
-  </style>
-  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1202.48" y1="4948.15" x2="6464.53" y2="6315.47">
-   <stop offset="0" style="stop-opacity:1; stop-color:#FCA400"/>
-   <stop offset="1" style="stop-opacity:1; stop-color:#FFCB00"/>
-  </linearGradient>
-  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="1202.48" y1="4948.15" x2="6464.53" y2="6315.47">
-  </linearGradient>
-  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5304.39" y1="1426.34" x2="456.69" y2="639.08">
-  </linearGradient>
-  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5304.39" y1="1426.34" x2="456.69" y2="639.08">
-  </linearGradient>
- </defs>
- <g id="Layer_x0020_1">
-  <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_105553884794336">
-   <g>
-    <path class="fil0" d="M2064.43 6498.7l4378.95 -1628.23 -1298.47 1700.19c-188.34,189.88 -414.01,283.8 -688.34,253.23l-2392.14 -325.19z"/>
-    <path class="fil1" d="M2523.82 2143.42l-459.83 4292.14 -942.72 -1926.59c-82.13,-236.9 -68.08,-465.63 70.85,-683.95l1331.7 -1681.6z"/>
-   </g>
-   <g>
-    <path class="fil2" d="M4378.95 330.89l-4378.95 1628.23 1298.46 -1700.19c188.34,-189.89 414.02,-283.8 688.34,-253.24l2392.15 325.2z"/>
-    <path class="fil3" d="M3919.55 4686.17l459.84 -4292.15 942.71 1926.6c82.14,236.9 68.08,465.63 -70.85,683.95l-1331.7 1681.6z"/>
-   </g>
-  </g>
- </g>
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M175.183 125.2H320.2C320.2 125.2 167.317 313.683 139.117 346.283C114.067 375.233 118.133 415.267 118.133 415.267L396.067 84.6666C396.067 84.6666 210.25 84.6666 178.317 84.6666C178.317 84.6666 132.483 87.1 118.117 131.367C118.133 131.367 138.6 125.2 175.183 125.2Z" fill="#F7A400"/>
+<path d="M339.7 393.75H194.666C194.666 393.75 347.55 205.267 375.75 172.667C400.8 143.717 396.733 103.683 396.733 103.683L118.8 434.283C118.8 434.283 304.616 434.283 336.55 434.283C336.55 434.283 382.383 431.85 396.75 387.583C396.75 387.583 376.283 393.75 339.7 393.75Z" fill="#F7A400"/>
 </svg>

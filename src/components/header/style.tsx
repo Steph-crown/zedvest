@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
     img {
-        height: 26px;
+        height: 80px;
         @media (max-width: 500px) {
-            height: 24px;
+            height: 40px;
         }
     }
 

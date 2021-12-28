@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { HeaderContainer } from "./style";
-import Logo from "./../../assets/logo.svg";
+import Logo from "./../../assets/logo.png";
 import { CrossButton } from "../buttons/cross-button";
 
 export const Header: FC = () => {

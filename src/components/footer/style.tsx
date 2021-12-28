@@ -125,8 +125,9 @@ export const FooterContainer = styled.footer`
                 left: 88px;
             }
             &.com4 {
-                top: 274px;
-                right: 48px;
+                top: 254px;
+    right: 28px;
+}
             }
             &.com2 {
                 bottom: 76px;
@@ -164,8 +165,9 @@ export const FooterContainer = styled.footer`
             }
 
             &.com1 {
-                top: 292px;
-                left: 88px;
+                top: 232px;
+    left: 48px;
+}
             }
             &.com4 {
                 top: 244px;
@@ -273,12 +275,67 @@ export const FooterContainer = styled.footer`
             }
 
             &.com1 {
-                top: 282px;
+                top: 232px;
                 left: 28px;
             }
             &.com4 {
-                top: 264px;
+                top: 204px;
                 right: 48px;
+            }
+            &.com2 {
+                bottom: 126px;
+                left: 46px;
+            }
+            &.com3 {
+                bottom: 200px;
+                right: 40px;
+            }
+        }
+    }
+
+    @media (max-width: 370px) {
+        section {
+            h2 {
+                font-size: 1.8em !important;
+                line-height: 44px;
+                position: relative;
+                z-index: 8444848484;
+            }
+
+            h6 {
+                font-size: 1.2em !important;
+            }
+        }
+        img {
+            &.mem {
+                height: 100px;
+            }
+            &.c {
+                height: 32px;
+            }
+
+            &.m1 {
+                top: -15px;
+                left: 15px;
+            }
+
+            &.m2 {
+                top: -40px;
+                right: 12px;
+            }
+
+            &.m3 {
+                left: 8px;
+                bottom: -24px;
+            }
+
+            &.com1 {
+                top: 252px;
+                left: 28px;
+            }
+            &.com4 {
+                top: 284px;
+                right: 28px;
             }
             &.com2 {
                 bottom: 126px;
@@ -328,11 +385,11 @@ export const FooterContainer = styled.footer`
             }
 
             &.com1 {
-                top: 332px;
+                top: 272px;
                 left: 28px;
             }
             &.com4 {
-                top: 324px;
+                top: 254px;
                 right: 28px;
             }
             &.com2 {
