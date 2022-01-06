@@ -30,9 +30,9 @@ export const Banner: FC = () => {
                             Zedvest uses <span>artificial intelligence</span> to
                             give periodic reports and feedback on your spending
                             and saving culture to make sure you keep up with
-                            your goals whether in spending orr saving. Get
-                            proven tips on how to make the most of your savings
-                            and keep your spending in check
+                            your goals whether in spending or saving. Get proven
+                            tips on how to make the most of your savings and
+                            keep your spending in check
                         </p>
                         <p data-aos="fade-up" className="launch">
                             Be the first to know when we launch
