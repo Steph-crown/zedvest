@@ -29,7 +29,7 @@ export const Footer: FC = () => {
                 <img src={memoji3} alt="" className="mem m3" />
 
                 <section className="pre-footer">
-                    <h2>Build a financially stable future with ZedVest</h2>
+                    <h2>Build a financially stable future with Zedvest</h2>
                     <h6>
                         Your financial freedom is now in the palm of your hands.
                     </h6>
