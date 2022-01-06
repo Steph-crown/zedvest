@@ -26,7 +26,7 @@ export const Banner: FC = () => {
                         <h1 data-aos="fade-up">
                             There is a new way to handle money.
                         </h1>
-                        <p>
+                        <p data-aos="fade-up">
                             Zedvest uses <span>artificial intelligence</span> to
                             give periodic reports and feedback on your spending
                             and saving culture to make sure you keep up with
