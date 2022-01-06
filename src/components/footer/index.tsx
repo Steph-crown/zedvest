@@ -65,16 +65,16 @@ export const Footer: FC = () => {
                     Contact: support@zedvest.com
                 </a>
                 <div className="socials">
-                    <a href="/">
+                    <a href="mailto:hello@zedvest.com">
                         <Mail />
                     </a>
-                    <a href="/">
+                    <a href="https://twitter.com/zedvest">
                         <Twitter />
                     </a>{" "}
-                    <a href="/">
+                    <a href="https://www.linkedin.com/company/zedvest-tech">
                         <Linkedin />
                     </a>{" "}
-                    <a href="/">
+                    <a href="https://www.instagram.com/zedvest_app">
                         <Instagram />
                     </a>
                 </div>
