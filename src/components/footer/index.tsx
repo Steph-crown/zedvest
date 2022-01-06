@@ -51,7 +51,7 @@ export const Footer: FC = () => {
             >
                 <img src={Logo} alt="Logo" className="logo" />
 
-                <a
+                <p
                     style={{
                         textAlign: "center",
                         color: "white",
@@ -60,10 +60,9 @@ export const Footer: FC = () => {
                         display: "block",
                         margin: "auto",
                     }}
-                    href="mailto:support@zedvest.com"
                 >
-                    Contact: support@zedvest.com
-                </a>
+                    Copyright 2022. Zedvest. All rights reserved.
+                </p>
                 <div className="socials">
                     <a
                         href="mailto:hello@zedvest.com"
