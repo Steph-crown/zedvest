@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import avatarBack from "./../../assets/avatar-back.png";
 
 export const BannerContainer = styled.div`
     background: transparent;
@@ -14,6 +15,12 @@ export const BannerContainer = styled.div`
         @media (max-width: 800px) {
             display: none;
         }
+    }
+    @media (max-width: 800px) {
+        background-image: url(${avatarBack});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     div.banner {
         width: 100%;
