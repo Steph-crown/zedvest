@@ -113,7 +113,9 @@ export const BannerContainer = styled.div`
                 font-size: 1.5em;
                 margin-bottom: 1.5em;
                 line-height: 50px;
-
+                span {
+                    color: var(--theme);
+                }
                 &.launch {
                     margin-bottom: 0.5em;
                     color: #eee;
