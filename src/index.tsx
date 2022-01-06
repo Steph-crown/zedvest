@@ -5,11 +5,11 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 // Font
-import "./assets/fonts/style.css";
+import "./assets/fonts/stylesheet.css";
 
 ReactDOM.render(
     <React.StrictMode>
-            <App />
+        <App />
     </React.StrictMode>,
     document.getElementById("root")
 );

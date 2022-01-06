@@ -60,10 +60,11 @@ export const Footer: FC = () => {
                         display: "block",
                         margin: "auto",
                     }}
+                    className="md"
                 >
                     Copyright 2022. Zedvest. All rights reserved.
                 </p>
-                <div className="socials">
+                <div className="socials md">
                     <a
                         href="mailto:hello@zedvest.com"
                         target={"_blank"}
@@ -93,6 +94,50 @@ export const Footer: FC = () => {
                         <Instagram />
                     </a>
                 </div>
+
+                <div className="socials sm">
+                    <a
+                        href="mailto:hello@zedvest.com"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        <Mail />
+                    </a>
+                    <a
+                        href="https://twitter.com/zedvest"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        <Twitter />
+                    </a>{" "}
+                    <a
+                        href="https://www.linkedin.com/company/zedvest-tech"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        <Linkedin />
+                    </a>{" "}
+                    <a
+                        href="https://www.instagram.com/zedvest_app"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        <Instagram />
+                    </a>
+                </div>
+                <p
+                    style={{
+                        textAlign: "center",
+                        color: "white",
+                        fontSize: "14px",
+                        textDecoration: "none",
+                        display: "block",
+                        margin: "auto",
+                    }}
+                    className="sm"
+                >
+                    Copyright 2022. Zedvest. All rights reserved.
+                </p>
             </div>
         </Container>
     );
@@ -126,6 +171,24 @@ const Container = styled.div`
         }
         svg {
             height: 40px;
+        }
+    }
+
+    .sm {
+        display: none !important;
+    }
+    @media (max-width: 800px) {
+        .md {
+            display: none !important;
+        }
+        .sm {
+            display: flex !important;
+        }
+
+        div.socials {
+            a {
+                margin: 0 0.8em;
+            }
         }
     }
 `;
