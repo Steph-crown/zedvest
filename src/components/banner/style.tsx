@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import BannerBg from "./../../assets/banner-background-min.png";
 
 export const BannerContainer = styled.section`
-    background-image: url(${BannerBg});
+    background: #1e2329;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

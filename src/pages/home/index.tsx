@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Banner } from "../../components/banner";
 import { Features } from "../../components/features";
 import { HomePageContainer } from "./style";
-import { Steps } from "./../../components/steps";
+// import { Steps } from "./../../components/steps";
 import { Footer } from "../../components/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,7 +12,7 @@ export const Homepage: FC = () => {
         <HomePageContainer>
             <Banner />
             <Features />
-            <Steps />
+            {/* <Steps /> */}
             <Footer />
         </HomePageContainer>
     );
