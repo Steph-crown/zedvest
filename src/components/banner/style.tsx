@@ -1,12 +1,22 @@
 import styled from "styled-components";
 
-export const BannerContainer = styled.section`
-    background: #1e2329;
+export const BannerContainer = styled.div`
+    background: transparent;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    position: relative;
+    img.avatar-round {
+        width: 100%;
+        margin-top: -8em;
+        margin-bottom: 2em;
+    }
+    div.banner {
+        width: 100%;
+        position: relative;
+        padding: 0 calc(0.08 * 100vw);
+    }
     div.banner-flex {
         display: flex;
         justify-content: space-between;
@@ -15,12 +25,26 @@ export const BannerContainer = styled.section`
         flex-wrap: nowrap;
         color: white;
         margin-top: -3em;
+        position: absolute;
+        z-index: 99393;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
 
-        div.left {
-            width: 52%;
+        div.center {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            max-width: 700px;
+            margin: auto;
+            padding: 200px 0;
 
             h1 {
-                font-size: 3.6em;
+                font-size: 4em;
                 font-weight: 800;
                 background-image: linear-gradient(
                     97.46deg,
@@ -49,9 +73,15 @@ export const BannerContainer = styled.section`
             }
 
             p {
-                margin-top: 1.5em;
-                font-size: 1em;
-                margin-bottom: 2em;
+                margin-top: 0.6em;
+                font-size: 1.5em;
+                margin-bottom: 1.5em;
+                line-height: 50px;
+
+                &.launch {
+                    margin-bottom: 0.5em;
+                    color: #eee;
+                }
             }
         }
 
