@@ -95,6 +95,7 @@ export const FooterContainer = styled.footer`
         height: 56px;
         background: #21252b;
     }
+    
 
     @media (max-width: 1200px) {
         img {

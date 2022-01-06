@@ -8,10 +8,16 @@ import comment4 from "./../../assets/comment4.png";
 import memoji1 from "./../../assets/memoji1.png";
 import memoji2 from "./../../assets/memoji2.png";
 import memoji3 from "./../../assets/memoji3.png";
+import { ReactComponent as Linkedin } from "./../../assets/linkedin.svg";
+import { ReactComponent as Twitter } from "./../../assets/twitter.svg";
+import { ReactComponent as Instagram } from "./../../assets/instagram.svg";
+import { ReactComponent as Mail } from "./../../assets/mail.svg";
+import Logo from "./../../assets/logo.png";
+import styled from "styled-components";
 
 export const Footer: FC = () => {
     return (
-        <>
+        <Container>
             {" "}
             <FooterContainer>
                 <img src={comment1} alt="" className="com1 c" />
@@ -41,7 +47,10 @@ export const Footer: FC = () => {
                     background: "black",
                     padding: "20px calc(0.08 * 100vw)",
                 }}
+                className="end"
             >
+                <img src={Logo} alt="Logo" className="logo" />
+
                 <a
                     style={{
                         textAlign: "center",
@@ -55,7 +64,53 @@ export const Footer: FC = () => {
                 >
                     Contact: support@zedvest.com
                 </a>
+                <div className="socials">
+                    <a href="/">
+                        <Mail />
+                    </a>
+                    <a href="/">
+                        <Twitter />
+                    </a>{" "}
+                    <a href="/">
+                        <Linkedin />
+                    </a>{" "}
+                    <a href="/">
+                        <Instagram />
+                    </a>
+                </div>
             </div>
-        </>
+        </Container>
     );
 };
+
+const Container = styled.div`
+    img.logo {
+        height: 80px;
+        @media (max-width: 500px) {
+            height: 40px;
+        }
+    }
+    div.end {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 2px;
+        align-items: center;
+
+        @media (max-width: 800px) {
+            flex-direction: column;
+        }
+    }
+    div.socials {
+        display: flex;
+        justify-content: flex-end;
+        min-height: 2px;
+        align-items: center;
+        a {
+            margin-left: 8px;
+        }
+        svg {
+            height: 40px;
+        }
+    }
+`;
