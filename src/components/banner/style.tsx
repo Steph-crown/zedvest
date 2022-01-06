@@ -11,11 +11,16 @@ export const BannerContainer = styled.div`
         width: 100%;
         margin-top: -8em;
         margin-bottom: 2em;
+        @media (max-width: 800px) {
+            display: none;
+        }
     }
     div.banner {
         width: 100%;
         position: relative;
-        padding: 0 calc(0.08 * 100vw);
+        @media (max-width: 800px) {
+            position: relative;
+        }
     }
     div.banner-flex {
         display: flex;
@@ -31,6 +36,9 @@ export const BannerContainer = styled.div`
         left: 0;
         right: 0;
         margin: auto;
+        @media (max-width: 800px) {
+            position: relative;
+        }
 
         div.center {
             width: 100%;
@@ -39,9 +47,30 @@ export const BannerContainer = styled.div`
             align-items: center;
             justify-content: center;
             text-align: center;
-            max-width: 700px;
             margin: auto;
-            padding: 200px 0;
+            padding: 600px calc(0.08 * 100vw);
+            max-width: 1500px;
+
+            @media (max-width: 1900px) {
+                padding: 500px calc(0.08 * 100vw);
+                max-width: 1500px;
+            }
+            @media (max-width: 1700px) {
+                padding: 400px calc(0.08 * 100vw);
+                max-width: 1200px;
+            }
+            @media (max-width: 1600px) {
+                padding: 400px calc(0.08 * 100vw);
+                max-width: 1100px;
+            }
+            @media (max-width: 1400px) {
+                padding: 300px calc(0.08 * 100vw);
+                max-width: 900px;
+            }
+            @media (max-width: 1150px) {
+                padding: 150px calc(0.08 * 100vw);
+                max-width: 800px;
+            }
 
             h1 {
                 font-size: 4em;
@@ -81,6 +110,30 @@ export const BannerContainer = styled.div`
                 &.launch {
                     margin-bottom: 0.5em;
                     color: #eee;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                padding: 90px calc(0.08 * 100vw);
+                max-width: 700px;
+                h1 {
+                    font-size: 3em;
+                }
+                p {
+                    font-size: 1.2em;
+                    line-height: 40px;
+                }
+            }
+            @media (max-width: 800px) {
+                padding: 50px calc(0.08 * 100vw);
+                max-width: 100%;
+                position: relative;
+                h1 {
+                    font-size: 3em;
+                }
+                p {
+                    font-size: 1.2em;
+                    line-height: 40px;
                 }
             }
         }
