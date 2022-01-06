@@ -12,11 +12,11 @@ export const BannerContainer = styled.div`
         width: 100%;
         margin-top: -8em;
         margin-bottom: 2em;
-        @media (max-width: 800px) {
+        @media (max-width: 880px) {
             display: none;
         }
     }
-    @media (max-width: 800px) {
+    @media (max-width: 880px) {
         background-image: url(${avatarBack});
         background-size: cover;
         background-repeat: no-repeat;
@@ -25,7 +25,7 @@ export const BannerContainer = styled.div`
     div.banner {
         width: 100%;
         position: relative;
-        @media (max-width: 800px) {
+        @media (max-width: 880px) {
             position: relative;
         }
     }
@@ -43,7 +43,7 @@ export const BannerContainer = styled.div`
         left: 0;
         right: 0;
         margin: auto;
-        @media (max-width: 800px) {
+        @media (max-width: 880px) {
             position: relative;
         }
 
@@ -74,8 +74,16 @@ export const BannerContainer = styled.div`
                 padding: 300px calc(0.08 * 100vw);
                 max-width: 900px;
             }
-            @media (max-width: 1150px) {
-                padding: 150px calc(0.08 * 100vw);
+            @media (max-width: 1300px) {
+                padding: 200px calc(0.08 * 100vw);
+                max-width: 900px;
+            }
+            @media (max-width: 1200px) {
+                padding: 100px calc(0.08 * 100vw);
+                max-width: 850px;
+            }
+            @media (max-width: 1050px) {
+                padding: 100px calc(0.08 * 100vw);
                 max-width: 800px;
             }
 
@@ -122,18 +130,22 @@ export const BannerContainer = styled.div`
                 }
             }
 
-            @media (max-width: 1024px) {
-                padding: 90px calc(0.08 * 100vw);
-                max-width: 700px;
+            @media (max-width: 1050px) {
+                /* padding: 50px calc(0.08 * 100vw);
+                max-width: 700px; */
                 h1 {
-                    font-size: 3em;
+                    font-size: 2.8em;
                 }
                 p {
                     font-size: 1.2em;
                     line-height: 40px;
                 }
             }
-            @media (max-width: 800px) {
+            @media (max-width: 940px) {
+                padding: 50px calc(0.08 * 100vw);
+                max-width: 700px;
+            }
+            @media (max-width: 880px) {
                 padding: 0px calc(0.08 * 100vw);
                 max-width: 100%;
                 position: relative;
@@ -161,7 +173,7 @@ export const BannerContainer = styled.div`
     }
 
     @media (max-width: 1300px) {
-        div.banner-<InputGroup / > flex {
+        div.banner-flex {
             margin-top: -1.6em;
         }
     }
@@ -204,7 +216,7 @@ export const BannerContainer = styled.div`
         }
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 880px) {
         div.banner-flex {
             div.right {
                 margin-left: -5em;

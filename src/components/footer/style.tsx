@@ -95,7 +95,12 @@ export const FooterContainer = styled.footer`
         height: 56px;
         background: #21252b;
     }
-    
+    img.logo {
+        height: 80px;
+        @media (max-width: 500px) {
+            height: 40px;
+        }
+    }
 
     @media (max-width: 1200px) {
         img {
@@ -127,8 +132,7 @@ export const FooterContainer = styled.footer`
             }
             &.com4 {
                 top: 254px;
-    right: 28px;
-}
+                right: 28px;
             }
             &.com2 {
                 bottom: 76px;
@@ -167,8 +171,7 @@ export const FooterContainer = styled.footer`
 
             &.com1 {
                 top: 232px;
-    left: 48px;
-}
+                left: 48px;
             }
             &.com4 {
                 top: 244px;
@@ -239,7 +242,7 @@ export const FooterContainer = styled.footer`
         }
     }
 
-    @media (max-width: 440px) {
+    @media (max-width: 460px) {
         section {
             h2 {
                 font-size: 1.8em !important;
@@ -276,11 +279,11 @@ export const FooterContainer = styled.footer`
             }
 
             &.com1 {
-                top: 232px;
+                top: 262px;
                 left: 28px;
             }
             &.com4 {
-                top: 204px;
+                top: 284px;
                 right: 48px;
             }
             &.com2 {
@@ -386,11 +389,66 @@ export const FooterContainer = styled.footer`
             }
 
             &.com1 {
-                top: 272px;
+                top: 322px;
                 left: 28px;
             }
             &.com4 {
-                top: 254px;
+                top: 340px;
+                right: 28px;
+            }
+            &.com2 {
+                bottom: 126px;
+                left: 46px;
+            }
+            &.com3 {
+                bottom: 200px;
+                right: 40px;
+            }
+        }
+    }
+
+    @media (max-width: 290px) {
+        section {
+            h2 {
+                font-size: 1.8em !important;
+                line-height: 44px;
+                position: relative;
+                z-index: 8444848484;
+            }
+
+            h6 {
+                font-size: 1.2em !important;
+            }
+        }
+        img {
+            &.mem {
+                height: 100px;
+            }
+            &.c {
+                height: 32px;
+            }
+
+            &.m1 {
+                top: -15px;
+                left: 15px;
+            }
+
+            &.m2 {
+                top: -40px;
+                right: 12px;
+            }
+
+            &.m3 {
+                left: 8px;
+                bottom: -24px;
+            }
+
+            &.com1 {
+                top: 380px;
+                left: 28px;
+            }
+            &.com4 {
+                top: 360px;
                 right: 28px;
             }
             &.com2 {

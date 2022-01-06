@@ -32,10 +32,10 @@ export const Banner: FC = () => {
                             and saving culture to make sure you keep up with
                             your goals whether in spending or saving. Get proven
                             tips on how to make the most of your savings and
-                            keep your spending in check
+                            keep your spending in check.
                         </p>
                         <p data-aos="fade-up" className="launch">
-                            Be the first to know when we launch
+                            Be the first to know when we launch.
                         </p>
                         <StrokeInput />
                     </div>
